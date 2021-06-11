@@ -7,11 +7,14 @@ int factorial(int n){
     return n*factorial(n-1);
 }
 
+int maxOf(int a,int b){
+    return a>b? a : b;
+}
+
 int main(){
     int i=9;
-
     cout<<factorial(9)<<endl;
-
-
+    cout<<maxOf(i,4)<<endl;
+    
     return 0;
 }
